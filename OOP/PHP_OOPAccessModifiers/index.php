@@ -11,14 +11,14 @@ $this->name = $n;
 public function getName(){
     return $this->name;
 }
-
+ 
 public function speak(){
     echo "$this->name speaking ....";
 }
 }
 
 
-class Teacher extends Student{
+ 
     public $salary;
     public function walk(){
         echo $this->name . "is waking";
